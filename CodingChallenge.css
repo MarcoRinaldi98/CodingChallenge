@@ -1,0 +1,63 @@
+body{
+  background-image: url(background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: 'PT Sans', sans-serif;
+}
+.sfondo{
+  width: 1200px;
+  height: 800px;
+  margin: auto;
+  margin-top: 2%;
+  background-color:rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  padding-top: 3%;
+}
+header{
+  text-align: center;
+}
+img{
+  width: 300px;
+}
+header > h1{
+  color: lime;
+}
+nav{
+  background-color: lime;
+  text-align: center;
+  height: 60%;
+  padding: 1%;
+  margin: 0% 10% 0% 10%;
+}
+main{
+  margin: 1% 10% 10% 10%;
+  color: white;
+}
+.scelta{
+  display: inline-block;
+}
+.scelta > p{
+  font-size: 20px;
+}
+.via, .stato{
+  font-size: 18px;
+}
+.via{
+  padding-bottom: 1%;
+}
+.barra{
+  height: 30px;
+  border-radius: 5px;
+}
+.uno{
+  width: 350px;
+  background-color: #ffad33;
+}
+.due{
+  width: 600px;
+  background-color: #33ff33;
+}
+.tre{
+  width: 150px;
+  background-color: #ff3333;
+}
